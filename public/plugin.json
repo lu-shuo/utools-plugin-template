@@ -1,0 +1,16 @@
+{
+  "main": "index.html",
+  "logo": "logo.png",
+  "platform": ["win32", "darwin", "linux"],
+  "preload": "preload.js",
+  "development": {
+    "main": "http://127.0.0.1:3000"
+  },
+  "features": [
+    {
+      "code": "main",
+      "explain": "插件开发模板",
+      "cmds": ["测试", "demo"]
+    }
+  ]
+}
