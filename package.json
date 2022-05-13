@@ -6,7 +6,9 @@
     "prepare": "husky install",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "standard-version && git push --follow-tags",
+    "first-release": "standard-version --first-release"
   },
   "dependencies": {
     "vue": "^3.2.25"
